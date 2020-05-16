@@ -1,0 +1,32 @@
+{
+  "name": "thermome-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn ts-node main.ts",
+    "start": "node .",
+    "mirgate": "yarn knex mirgate:latest",
+    "seed": "yarn knex seed:run"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "join-js": "https://github.com/micfung/joinjs.git",
+    "knex": "^0.19.3",
+    "moment": "^2.24.0",
+    "pg": "^7.12.1",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.1",
+    "@types/knex": "^0.16.1",
+    "@types/moment": "^2.13.0",
+    "@types/pg": "^7.11.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  }
+}
